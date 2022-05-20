@@ -4,3 +4,5 @@ php bin/console debug:router
 
 sudo composer req twig
 
+sudo composer require make
+
