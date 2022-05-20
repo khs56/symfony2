@@ -5,3 +5,5 @@ php bin/console debug:router
 sudo composer require doctrine // Model
 sudo composer req twig // View
 sudo composer require make // Controller
+
+php bin/console make:controller
