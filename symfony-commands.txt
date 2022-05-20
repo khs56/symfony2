@@ -2,7 +2,6 @@ php bin/console cache:clear
 
 php bin/console debug:router
 
-sudo composer req twig
-
-sudo composer require make
-
+sudo composer require doctrine // Model
+sudo composer req twig // View
+sudo composer require make // Controller
