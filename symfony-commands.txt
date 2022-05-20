@@ -1,0 +1,4 @@
+php bin/console cache:clear
+
+php bin/console debug:router
+
