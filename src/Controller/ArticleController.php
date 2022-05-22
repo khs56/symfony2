@@ -20,12 +20,17 @@ class ArticleController extends AbstractController
 
         $em = $this->getDoctrine()->getManager(); //entity manager
 
-        $em->persist($article); //store the data in db
-        $em->flush();
+        // $em->persist($article); //store the data in db. comment out not to save again.
+        // $em->flush();
+        // return new Response("Article was created");
 
-        return new Response("Article was created");
-        // return $this->render('article/index.html.twig', [
-        //     'controller_name' => 'ArticleController',
-        // ]);
+        $getArticle = $em->getRepository(Article::class)->findOneBy([
+            'id' => 1
+        ]);
+
+        return $this->render('article/index.html.twig', [
+            //'controller_name' => 'ArticleController',
+            'article' => $getArticle
+        ]);
     }
 }
