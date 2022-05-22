@@ -63,3 +63,4 @@ symfony.lock
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+public/php_errors.log
