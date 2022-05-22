@@ -25,7 +25,7 @@ class MainController extends AbstractController
     public function start(Request $request, $name){
         $nr = random_int(0, 100);
         return new Response(
-            '<h1>Hello ' . $name . '. Your lucky number is: ' . $nr . '</h1>'
+            '<h1>Hello ' . $name . '. Your lucky number is ' . $nr . '</h1>'
         );
     }
 }
