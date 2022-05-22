@@ -6,4 +6,4 @@ sudo composer require doctrine // Model
 sudo composer req twig // View
 sudo composer require make // Controller
 
-php bin/console make:controller
+php bin/console make:controller ViewController
