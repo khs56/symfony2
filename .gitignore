@@ -65,3 +65,4 @@ symfony.lock
 ###< symfony/framework-bundle ###
 public/php_errors.log
 .env
+config/.DS_Store
