@@ -1,6 +1,0 @@
-[20-May-2022 17:43:58 UTC] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost/symfony/public/" (from "http://localhost/symfony/")" at /Library/WebServer/Documents/symfony/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
-
-[20-May-2022 17:46:11 UTC] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost/symfony/public/" (from "http://localhost/symfony/")" at /Library/WebServer/Documents/symfony/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
-
-[20-May-2022 17:46:26 UTC] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost/symfony/public/" (from "http://localhost/symfony/")" at /Library/WebServer/Documents/symfony/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
-
